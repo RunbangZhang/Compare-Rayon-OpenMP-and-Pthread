@@ -1,0 +1,11 @@
+[package]
+name = "reduction"
+version = "0.1.0"
+authors = ["Supradeep T R <tr.supradeep@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.8.0"
+rayon = "1.5.1"
+matrixmultiply = "0.3.1"
+ndarray = { version = "0.15.3", features = ["rayon", "matrixmultiply-threading"] }
